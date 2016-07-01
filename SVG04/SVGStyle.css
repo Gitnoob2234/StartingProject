@@ -1,0 +1,16 @@
+body {
+    font-size:small;
+    color: Grey;
+    font-family: "Verdana", sans-serif;
+}
+
+h1{
+    font-size:x-large;
+    color: #303030;
+}
+
+.GreyOrange {
+    fill: #808080;
+    stroke: Orange;
+    stroke-width: 5;
+}
