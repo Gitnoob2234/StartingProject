@@ -1,0 +1,21 @@
+body {
+    font-size:small;
+    color: Grey;
+    font-family: "Verdana", sans-serif;
+}
+
+h1{
+    font-size:x-large;
+    color: #303030;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+}
+
+td {
+     border-bottom: 1px solid #ddd;
+}
