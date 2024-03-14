@@ -1,8 +1,9 @@
 name: Starter Github Action
 run-name: ${{ github.actor}} is testing out GITHUB ACtions 
-on: [pull_request]
+on: pull_request
 jobs: 
     Explore-Github-Actions:
         runs-on: ubuntu-latest
         steps: 
             - run: echo "The job was automatically triggered by a ${{ github.event_name}} event."
+            - run: echo "This job is now running on a ${{ runner.arch}} server"
