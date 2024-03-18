@@ -1,6 +1,7 @@
 name: Pull Request Github Action
 run-name: ${{ github.actor}} is testing out GITHUB ACtions 
-on: pull_request
+on: 
+    pull_request:
 jobs: 
     Explore-Github-Actions:
         runs-on: ubuntu-latest
@@ -8,6 +9,5 @@ jobs:
             - run: echo "The job was automatically triggered by a ${{ github.event_name}} event."
             - run: echo "This job is now running on a ${{ runner.arch}} server"
             - run: echo "Testing a light bit of ls, current parameter ${{ github.event.pull_request.body}}"
-            - run: echo "Event being run ${{ github.event_name }}"
-
+            - run: echo "Command run ${{ github.event_name}}"
 
