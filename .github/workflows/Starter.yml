@@ -1,8 +1,8 @@
 name: Starter Github Action
 run-name: ${{ github.actor}} is testing out GITHUB ACtions 
 on: 
-    pull_request
-    pull_request_target
+    pull_request:
+    pull_request_target:
 jobs: 
     Explore-Github-Actions:
         runs-on: ubuntu-latest
